@@ -58,14 +58,13 @@ git commit -a -m "Sprint 01 - Descrição do commit"
 
 ### Desfazer último commit
 
-* Se foi realizado push após o commit:
+* Se foi realizado push após o commit, digite o comando:
 ```
 git revert HEAD~1
-
 ```
 Ou HEAD~2 para reverter os 2 últimos commits.
 
-* Se não foi realizado push após o commit:
+* Se não foi realizado push após o commit, digite o comando:
 
 ```
 git reset HEAD~1
