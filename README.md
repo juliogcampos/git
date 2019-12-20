@@ -28,6 +28,13 @@ git init
 * Criar uma cópia de um projeto hospedado em um repositório remoto de Git com o comando:
 
 ```
+git clone url-do-projeto
+
+```
+
+* Para clonar este projeto digite o comando:
+
+```
 git clone https://github.com/juliogcampos/git.git
 
 ```
