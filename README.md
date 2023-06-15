@@ -38,6 +38,14 @@ git clone url-do-projeto
 git clone https://github.com/juliogcampos/git.git
 ```
 
+### Clonar branch de um repositório
+
+- Para clonar apenas a branch do projeto chamada "master" digite o comando:
+
+```git
+git clone --branch master https://github.com/juliogcampos/git.git
+```
+
 ## 2 - Principais comandos
 
 ### Realizar commit
