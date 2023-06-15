@@ -46,6 +46,20 @@ git clone https://github.com/juliogcampos/git.git
 git clone --branch master https://github.com/juliogcampos/git.git
 ```
 
+### Clonar branch de um repositório e retornar a um commit específico
+
+- Para clonar apenas a branch do projeto chamada "master" digite o comando:
+
+```git
+git clone --branch master https://github.com/juliogcampos/git.git
+```
+
+- Para retornar ao commit específico, obtenha o commit SHA e insira no seguinte comando:
+
+```git
+git checkout e94b29d64569aa476139465bd2e05e3e43ddf300
+```
+
 ## 2 - Principais comandos
 
 ### Realizar commit
